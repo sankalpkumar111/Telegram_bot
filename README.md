@@ -21,7 +21,7 @@
 - `/helps` - Display the help menu with available commands.
 - `/content` - Receive study tips and strategies.
 - `/contact` - Get contact details and social media links.
-- `/addpdf <keyword> <file_path>` - **(Admin Only)** Add a PDF to the bot's database with a specific keyword.
+- `/addpdf <keyword>` - **(Admin Only)** Add a PDF to the bot's database by first providing a keyword, then uploading the PDF.
 
 ---
 
@@ -70,7 +70,7 @@ The bot uses **SQLite** to store PDFs and their associated keywords. A database 
 
 1. **Start the bot** by typing `/start`.
 2. **View commands** using `/helps`.
-3. **Add PDFs** using the `/addpdf` command, specifying a keyword and file path.
+3. **Add PDFs** by first using the `/addpdf` command to provide a keyword, then upload the PDF file.
 4. **Retrieve PDFs** by typing relevant keywords in the chat.
 
 ---
@@ -78,6 +78,3 @@ The bot uses **SQLite** to store PDFs and their associated keywords. A database 
 ## 🤝 Contribution
 
 Contributions are welcome! Feel free to open issues or submit pull requests. Please ensure your code adheres to the project’s coding standards.
-
----
-
